@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  kama-ai:
+    build: .
+    container_name: kama_ai_5
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+      - HOST=0.0.0.0
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ./data:/app/data
