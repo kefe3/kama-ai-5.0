@@ -44,7 +44,7 @@
 
 ```bash
 # 1. Depoyu klonlayın
-git clone https://github.com/originedge/kama-ai-5.0.git
+git clone https://github.com/kefe3/kama-ai-5.0.git
 cd kama-ai-5.0
 
 # 2. Sanal ortam oluşturun
@@ -59,7 +59,7 @@ uvicorn app:app --host 0.0.0.0 --port 8000 --reload
 ```
 
 Sunucu başladıktan sonra:
-- **Web Dashboard:** `http://localhost:8000/`
+- **Web Arayüzü (Canlı Test):** `http://localhost:8000/`
 - **Swagger API Dokümantasyonu:** `http://localhost:8000/docs`
 - **REST API Dokümanı:** `http://localhost:8000/api`
 
